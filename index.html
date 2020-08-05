@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rock-paper-scissors Game</title>
+        <meta charset="UTF-8">
+        <link rel=stylesheet href='styles.css'>
+    </head>
+    <body>
+        <h1>Rock-Paper-Scissors</h1>
+        <div class="container">
+            <button id='R' class="btn">Rock</button>
+            <button id='P' class="btn">Paper</button>
+            <button id='S' class="btn">Scissors</button>
+        </div>
+        <div class="container" id="score-container">
+            <p class="score" id='score-title'>Score</p>
+            <p class="score" id="winner">X</p>
+            <div class="container" id="playerVSmachine">
+                <div class="vertical-container">
+                    <p class="score" id='player-title'>Player</p>
+                    <p class="score" id="player">0</p>
+                </div>
+                <div class="vertical-container">
+                    <p class="score" id='machine-title'>Machine</p>
+                    <p class="score" id="machine">0</p>
+                </div>
+                <div class="vertical-container">
+                    <p class="score">Draws</p>
+                    <p class="score" id="draws">0</p>
+                </div>
+            </div>
+            <button class="btn" id='reset'>Reset</button>
+        </div>
+        
+    </body>
+    <script src='scripts.js'>
+    </script>
+</html>
